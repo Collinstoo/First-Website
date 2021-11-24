@@ -1,0 +1,147 @@
+*
+{
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.menu-bar{
+    background-color:black;
+    text-align:center;
+    margin: 4px;
+    padding: 0px;
+    font-family: cursive;
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 0px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.active,.menu-bar ul li:hover{
+    background-color: burlywood;
+    border-radius: 3px;
+}
+body{
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: lightgray;
+    margin-bottom: 0%;
+}
+.semiheader{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 0%;
+}
+h2{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+.footer{
+    background-color: whitesmoke;
+    text-align:center;
+    padding: auto;
+    margin: 10px auto;
+    height: 50px auto;
+}
+.footer ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.bapesection{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.background2{
+    background-color: white;
+    padding: 1px;
+    margin: 10px auto;
+    height: 600px ;
+    width: 600px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.aboutbape{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.bapelogo3copy{
+    background-color: transparent;
+    padding: 0px;
+    margin:  auto;
+    height: 100px ;
+    width: 100px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.offwhitesection{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.offwhite{
+    background-color: whitesmoke;
+    padding: 1px;
+    margin: 10px auto;
+    height: 600px ;
+    width: 600px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.aboutoffwhite{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.offwhitelogo{
+  background-color: transparent;
+}
+.tnfsection{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.thenorthface{
+    background-color: white;
+    padding: 1px;
+    margin: 10px auto;
+    height: 600px ;
+    width: 600px ;
+}
+.abouttnf{
+    background-color:transparent;
+    font-family: 'Raleway', sans-serif;  
+}
+.thenorthfacelogo{
+    background-color: transparent;
+   
+}
+.stussysection{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.stussy{
+    background-color: whitesmoke;
+    padding: 1px;
+    margin: 10px auto;
+    height: 600px ;
+    width: 600px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.aboutstussy{
+    background-color:transparent;
+    font-family: 'Raleway', sans-serif;  
+}
+.stussylogo{
+    background-color: transparent;
+    padding: 0px;
+    margin:  auto;
+    height: 100px  ;
+    width: 130px;
+}
