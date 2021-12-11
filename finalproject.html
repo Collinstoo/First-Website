@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        function getConfirmation(){
+var retValue=confirm("Do you want to receive updates on the latest stock")
+iff( retVal == true ); {
+ document.write ("Thank You!");
+ return true;
+        }
+        iff( retVal == false ) ;{
+ document.write ("User does not want to continue!");
+ return false;
+ }
+ }
+        //-->
+    </script>
     <title>
            The Apparel Corner
     </title>
@@ -11,6 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f6f113000.js" crossorigin="anonymous"></script>
     <div class="homejoinus">
         <div class="home">
     <a href="/finalproject.html">HOME</a>
@@ -137,10 +152,45 @@ The 1990s ushered in an era during which The North Face further broadened the ou
     <img src="thenorthfacelogo2.png" alt="tnf"height="120px"width="150px">
     </a>
 </div>
-<div class="footer">
-    <ul>
-        
-    </ul>
-</div>
-
+<footer>
+    <div class="row">
+        <div class="col">
+            <h2 class="footerh3">THE APPAREL<br><br> CORNER</h2>
+            <p>It costs a little bit more to have the only shoe in town...</p>
+        </div>
+        <div class="col">
+            <h4>Store</h4>
+            <p>Accra Road</p>
+            <p>Nairobi,Kenya</p>
+            <p class="email-id">collotoo254@gmail.com</p>
+            <h4>+254 726301276</h4>
+        </div>
+        <div class="col">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href=""> About Us</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Newsletter</h3>
+            <form>
+                <i class="far fa-envelope"></i>
+                <input type="email" placeholder="Enter Your Email" required>
+               <center><button type="submit" onclick="getConfirmation();">
+                   <i class="fas fa-arrow-right"></i></button></center>
+            </form>
+            <div class="socialicons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
+    <p class="copyright">The Apparel Corner © 2021 - All Rights Reserved</p>
+</footer>
 </html>
